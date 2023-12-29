@@ -1,0 +1,41 @@
+= Homowork that I try to complete
+Firstname Lastname Barkovskiy Sergey
+3.0, July 29, 2022: AsciiDoc article template
+:toc:
+:icons: font
+:url-quickref: https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/
+
+== Request to create a new post
+URL http://93.84.86.69:9099/news_applications/v1/news
+Type: POST
+Auth -
+
+REQUEST BODY EXAMPLE
+{
+"title": "29-12-2023",
+"text": "тестовый текст 3-4 строчки",
+"userName": "Барковский Сергей Юрьевич",
+"time": "2023-12-29T09:15:00"
+}
+
+RESPONSE BODY EXAMPLE
+{
+"id": 154,
+"title": "28-12-2023",
+"text": "тестовый текст 3-4 строчки",
+"userName": "Барковский Сергей Юрьевич",
+"time": "2023-12-29T20:25:30.023221112"
+}
+
+=== The table where we could describe requirements for request and response
+
+.Table title
+|===
+|Name | Format | Description
+
+|name, row 1
+|Column 2, row 1
+
+|Column 1, row 2
+|Column 2, row 2
+|
